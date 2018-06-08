@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luajit-gumbo"
-version = "0.1-1"
+version = "0.1-2"
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.1-2",
   url = "git://github.com/LuaDist-testing/luajit-gumbo.git"
 }
 -- Original source
@@ -13,14 +13,13 @@ source = {
 -- }
 description = {
    summary = "FFI binding for gumbo-parser",
-   detailed = [[
-   ]],
+   detailed = "",
    homepage = "https://github.com/pguillory/luajit-gumbo",
    license = "MIT"
 }
 dependencies = {
-   "lua >= 5.1", -- "luajit >= 2.0.0"
+   "lua >= 5.1"
 }
 build = {
-  type = "make"
+   type = "make"
 }
